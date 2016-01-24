@@ -1,10 +1,7 @@
 #!/usr/bin/python
 
 def isPalindrome(x):
-  if str(x) == str(x)[::-1]:
-    return True
-  else:
-    return False
+  return str(x) == str(x)[::-1]
 
 answer=0
 for x in range(100,1000):
